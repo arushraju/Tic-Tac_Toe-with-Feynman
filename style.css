@@ -1,0 +1,78 @@
+figcaption{
+    display: flex;
+    justify-content: center;
+}
+figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.content-container{
+    position: absolute;
+    /* border: 1px solid black; */
+    width: 75%;
+    left: 12.5%;
+}
+
+.go-back-button{
+    position: absolute;
+    border: 1px solid black;
+    width: fit-content;
+    top: 20px;
+    left: 50px;
+}
+
+h1,h2,h3,h4{
+    display: flex;
+    justify-content: center;
+    
+    /* border: 1px solid black; */
+}
+h1{
+    font-size: 300%;
+}
+h2{
+    font-size: 200%;
+}
+h3{
+    font-size: 150%;
+}
+b{
+    font-size: 120%;
+}
+
+.footer{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    border: 1px solid black;
+}
+
+.logo-cards{
+    padding: 1%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: fit-content;
+}
+
+.github-logo{
+    width: fit-content;
+    border: 1px solid black;
+    transform: scale(0.2);
+}
+
+.mail-logo{
+    width: fit-content;
+    border: 1px solid black;
+    transform: scale(0.1);
+}
+.mail{
+    width: fit-content;
+}
